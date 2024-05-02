@@ -1,4 +1,4 @@
-#!/bin/bas
+#!/bin/bash
 
 #принимаем два файла
 input_dir=$1
