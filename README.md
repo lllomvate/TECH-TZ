@@ -7,4 +7,4 @@
    chmod +x имя_скрипта.sh
 3. Запустите скрипт
    ```bash
-  ./copyrka.sh /путь к input_dir /путь к output_dir
+   ./copyrka.sh /путь к input_dir /путь к output_dir
