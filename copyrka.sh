@@ -17,7 +17,7 @@ allfiles=$(find "$input_dir" -type f)
 echo "$allfiles"
 
 # Копирование файлов
-echo "$allfiles" | while read file; do
+while IFS= read -r file; do
     cp "$file" "$output_dir"
-done
+done <<< "$allfiles"
 
