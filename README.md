@@ -5,7 +5,7 @@
 3. Перейдите в директорию, где находится файл copy_files.sh и выполните команду
 
 4. ```bash
-   /bin/bash /path/script.sh input_dir output_dir
+   bash copy_files.sh input_dir output_dir
    ```
 
 Здесь можно поменят название `input_dir` на путь к вашей входной директории и `output_dir` на путь к вашей выходной директории.
